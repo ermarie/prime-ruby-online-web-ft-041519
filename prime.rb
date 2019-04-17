@@ -2,7 +2,7 @@
 require "prime"
 
 def prime?(int)
-  if Prime.includes?(int)
+  if Prime.prime?(int)
     true
   else
     false
